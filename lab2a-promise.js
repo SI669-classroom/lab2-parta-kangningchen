@@ -31,7 +31,6 @@ function countBig(bignum) {
     let p = new Promise (function (resolve, reject) {
         for (i = 0; i <bignum;) {
             i++;
-            console.log("I am counting " + i)
         }
         if (i === bignum) resolve();
         else reject();
